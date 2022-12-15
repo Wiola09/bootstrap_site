@@ -1,0 +1,192 @@
+body {
+  /* background-color: #ff4c68; */
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* Sekcije */
+
+.collored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  position: relative;
+}
+
+/* headings */
+
+/* big umesto H1, ne znam zašto je tu i H3, zato sto su bila ista */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  /* font-family: "Montserrat"; */
+  font-weight: 900;
+  /* Nece da radi "Montserrat-Black" debljinu dobijam sa običnim Montserrat i font weight */
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+
+/* Kontejneri */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#cta .container-fluid {
+  padding: 7% 15% 0%;
+}
+#footer .container-fluid {
+  padding: 4% 15% 0%;
+}
+
+.naslov-konte {
+  position: relative;
+}
+
+/* Titele image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* Download bottons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* <!-- Features --> */
+#features {
+  z-index: 1;
+}
+
+#features h3 {
+  color: #000;
+  /* font-family: "Montserrat-bold"; */
+  font-family: "Montserrat";
+  font-size: 1, 5rem;
+  font-weight: bold;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.ikonica:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+/*   color: #fff;
+ */}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* <!-- Press --> */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-loggo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* #pricing Section { */
+#pricing {
+  padding: 100px;
+  color: #000;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+#footer {
+  color: #000;
+}
+
+/*   Call to Action  ili cta */
+
+/* Kontakt sekcija */
+
+.social-networks {
+  margin: 20px 10px;
+}
+.social-networks:hover {
+  background-color: lightgray;
+}
+
+.autorska {
+  padding-top: 20px;
+}
